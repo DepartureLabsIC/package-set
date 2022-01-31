@@ -10,6 +10,11 @@ let packages = [
   , repo = "https://github.com/DepartureLabsIC/motoko-functional-rbtree"
   , version = "v0.1.0"
   , dependencies = [ "base" ]
+  },
+  { name = "motoko-objects"
+  , repo = "https://github.com/DepartureLabsIC/motoko-objects"
+  , version = "v0.1.0"
+  , dependencies = [ "base" ]
   }
 ] : List Package
 
