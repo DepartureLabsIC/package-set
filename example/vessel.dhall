@@ -1,4 +1,4 @@
 {
-  dependencies = [ "base", "functional-rbtree" ],
+  dependencies = [ "base", "functional-rbtree", "motoko-objects"],
   compiler = None Text
 }

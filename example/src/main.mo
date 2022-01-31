@@ -2,9 +2,8 @@
    
 import Hex "mo:functional-rbtree/FunctionalRBTree";
 import Result "mo:base/Result";
+import Objects "mo:motoko-objects/Objects";
 
-module {
+actor {
     private type Result<Ok, Err> = Result.Result<Ok, Err>;
-
-    public func hexEncode(bs : [Nat8]) : Text = Hex.encode(bs);
 };
